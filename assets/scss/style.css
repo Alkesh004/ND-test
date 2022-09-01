@@ -35,6 +35,10 @@ body {
   position: relative;
 }
 
+.pad-gap {
+  padding-right: 90px !important;
+}
+
 .menuIcon:hover .hover-bg {
   opacity: 1;
   -webkit-transform: scale(1.5);
