@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -102,7 +102,7 @@ a:hover ~ #circularcursor {
 
 .heading {
   font-size: 50px;
-  font-family: "Playfair Display", serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   text-transform: capitalize;
 }
@@ -197,7 +197,7 @@ a:hover ~ #circularcursor {
   font-size: 40px;
   font-weight: 400;
   text-decoration: none;
-  font-family: "Playfair Display", serif;
+  font-family: "Rubik", sans-serif;
 }
 
 #NavBar .nav-bg ul a:hover {
@@ -946,7 +946,7 @@ a:hover ~ #circularcursor {
 #BlogMainPage .blog-row-main-left .md-txt {
   font-size: 35px;
   font-weight: 400;
-  font-family: "Playfair Display", serif;
+  font-family: "Rubik", sans-serif;
   text-transform: capitalize;
 }
 
@@ -1074,7 +1074,7 @@ a:hover ~ #circularcursor {
 }
 
 .blog-left-right-inner .main .blog-inner-h {
-  font-family: "Playfair Display", serif;
+  font-family: "Rubik", sans-serif;
   font-size: 35px;
   font-weight: 400;
 }
@@ -1380,7 +1380,7 @@ a:hover ~ #circularcursor {
 }
 
 #ContactForm .form-h {
-  font-family: "Playfair Display", serif;
+  font-family: "Rubik", sans-serif;
 }
 
 #ContactForm .spc-font-size {
