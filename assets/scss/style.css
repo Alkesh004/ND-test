@@ -295,6 +295,14 @@ a:hover ~ #circularcursor {
   opacity: .5;
 }
 
+#HeroSection .video-main.work-overlay {
+  background-color: #000000;
+}
+
+#HeroSection .video-main.work-overlay img {
+  opacity: 0.5;
+}
+
 #HeroSection .video-main video {
   -o-object-fit: cover;
      object-fit: cover;

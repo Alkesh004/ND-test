@@ -30,52 +30,66 @@
     <!-- navbar start -->
 
     <section id="NavBar">
-        <div class="container-fluid">
-            <div class="navbar-main">
-                <div class="logo">
-                    <a class="posRel logo-link" href="index.html">
-                        <div class="hover-bg"></div><img src="assets/images/md-logo.svg">
-                    </a>
+        <nav class="navbar navbar-expand-lg navbar-light headerSection py-1">
+            <div class="container">
+                <div class="nvbar-main">
+                    <div class="logo">
+                        <a class="navbar-brand logo-link" href="index.html">
+                            <div style="width: 150px; height: auto;"><img class="img-fluid"
+                                    src="assets/Images/md-logo.svg">
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div id="menu" onclick="toggleMenu()" class="hamburger">
-                    <div class="menuIcon">
-                        <div class="hover-bg"></div>
+                <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="ml-auto">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="work-main.html">Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="NavBgMain" class="nav-bg" style="background-image:url(assets/images/nav-bg.jpg);">
-            <ul>
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="services.html">
-                    <li>Our Services</li>
-                </a>
-                <a href="work-main.html">
-                    <li>Work We've Done</li>
-                </a>
-                <a href="about.html">
-                    <li>About Us</li>
-                </a>
-                <a href="blog.html">
-                    <li>Blog</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contact Us</li>
-                </a>
-            </ul>
-        </div>
+            </div>
+        </nav>
     </section>
 
     <!-- navbar end -->
 
     <!-- hero section start -->
-    <section id="HeroSection"
-        style="background-image: url(assets/images/work-img-two.jpg); background-size: cover; background-position: center;">
-        <div class="video-main">
+    <section id="HeroSection">
+        <div class="video-main work-overlay">
+            <img class="img-fluid" src="assets/images/work-img-two.jpg">
             <div class="container">
+                <div class="main-text">
+                    <div>
+                        <h1 class="heading text-white">web design & development</h1>
+                        <p class="sm-txt text-white">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's.</p>
+                    </div>
 
+                </div>
             </div>
 
         </div>
@@ -89,13 +103,11 @@
     <section id="AboutND">
         <div class="bg work-web-second-sec-img" style="background-image: url(assets/images/nav-bg.jpg);
             background-size: cover; background-position:center ;">
-
             <div class="container work-web-sec-uni">
                 <div class="row padding">
                     <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                         <div class="img-box">
                             <img src="assets/images/web-work-sm-logo.svg">
-
                         </div>
 
                     </div>
@@ -250,8 +262,9 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <div class="view-case-studies text-white">
-                                <a href="work-app.html" class="sm-txt vcas d-flex align-items-center posRel ml-auto text-white"> View Case Study <i
-                                        class="bi bi-arrow-right ml-2"></i>
+                                <a href="work-app.html"
+                                    class="sm-txt vcas d-flex align-items-center posRel ml-auto text-white"> View Case
+                                    Study <i class="bi bi-arrow-right ml-2"></i>
                                     <div class="hover-bg"></div>
                                 </a>
                             </div>
@@ -266,43 +279,41 @@
     <section id="OurClients" class="sec-gap">
         <div class="container">
             <h1 class="heading">Our clients </h1>
-
-
             <div class="owl-carousel client-carousel owl-theme mt-4">
                 <div class="item">
                     <div class="img-box">
-                        <img class="img-fluid" src="assets/images/client-one.png">
+                        <a href="https://aspect-training.co.uk/"><img class="img-fluid" src="assets/images/client-one.png"></a>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="img-box">
-                        <img class="img-fluid" src="assets/images/client-two.png">
+                        <a href="https://www.themoderndogcompany.com/"><img class="img-fluid" src="assets/images/client-two.png"></a>
                     </div>
 
                 </div>
 
                 <div class="item">
                     <div class="img-box">
-                        <img class="img-fluid" src="assets/images/client-three.png">
+                        <a href="https://seltec.net/"><img class="img-fluid" src="assets/images/client-three.png"></a>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="img-box">
-                        <img class="img-fluid" src="assets/images/client-four.png">
+                        <a href="http://collaborativeadvice.com/"><img class="img-fluid" src="assets/images/client-four.png"></a>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="img-box">
-                        <img class="img-fluid" src="assets/images/client-five.png">
+                        <a href="https://www.glasshouseguide.com/"><img class="img-fluid" src="assets/images/client-five.png"></a>
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="img-box">
-                        <img class="img-fluid" src="assets/images/client-six.png">
+                        <a href="https://www.sociallink.com/"><img class="img-fluid" src="assets/images/client-six.png"></a>
                     </div>
                 </div>
             </div>
@@ -410,6 +421,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
         integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+            $(function () {
+                $(document).scroll(function () {
+                    var $nav = $(".headerSection");
+                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    
+                });
+            });
+        </script>  
     <script>
         $('.serv-carousel').owlCarousel({
             loop: true,

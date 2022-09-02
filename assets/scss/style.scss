@@ -33,9 +33,10 @@ body {
     position: relative;
 }
 
-.pad-gap{
+.pad-gap {
     padding-right: 90px !important;
 }
+
 .menuIcon:hover .hover-bg {
     opacity: 1;
     transform: scale(1.5);
@@ -222,7 +223,7 @@ a:hover~#circularcursor {
                     color: $whitecolor;
                 }
 
-                
+
             }
         }
     }
@@ -246,6 +247,7 @@ a:hover~#circularcursor {
                     left: 0;
                     transition: all .3s ease-in;
                 }
+
                 &:hover {
                     &::before {
                         width: 100%;
@@ -315,6 +317,13 @@ a:hover~#circularcursor {
                 img {
                     opacity: .5;
                 }
+            }
+        }
+
+        &.work-overlay{
+            background-color: #000000;
+            img{
+                opacity: 0.5;
             }
         }
 
