@@ -109,8 +109,8 @@ a:hover ~ #circularcursor {
 
 .view-case-studies:hover .hover-bg {
   opacity: 1;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   left: 81px;
   top: -25px;
 }
@@ -834,7 +834,7 @@ a:hover ~ #circularcursor {
 }
 
 #BrandingStrategyAbout .img-box {
-  margin-top: -200px;
+  margin-top: -150px;
   overflow: hidden;
   height: 80vh;
 }
