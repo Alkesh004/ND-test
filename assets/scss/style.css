@@ -92,8 +92,16 @@ a {
   cursor: pointer;
 }
 
+a.blk-color {
+  color: #000000;
+}
+
 a:hover {
   text-decoration: none !important;
+}
+
+a:hover.blk-color {
+  color: #000000;
 }
 
 a:hover ~ #circularcursor {
@@ -206,6 +214,12 @@ a:hover ~ #circularcursor {
 
 #NavBar .navbar-nav .nav-item {
   margin-left: 16px;
+}
+
+#NavBar .navbar-nav .nav-item .nav-link.active::before {
+  width: 100%;
+  right: 0;
+  background-color: #ffffff;
 }
 
 #NavBar .navbar-nav .nav-item .nav-link {
@@ -503,6 +517,7 @@ a:hover ~ #circularcursor {
   display: -ms-grid;
   display: grid;
   place-items: end;
+  cursor: url(../images/mouseArr.png), auto;
 }
 
 #WebDD .main-txt {
@@ -519,6 +534,7 @@ a:hover ~ #circularcursor {
 
 #AboutND .bg {
   height: 100vh;
+  cursor: url(../images/mouseArr.png), auto;
 }
 
 #AboutND .bg.work-web-second-sec-img {

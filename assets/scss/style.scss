@@ -100,10 +100,16 @@ $rubik: 'Rubik', sans-serif;
 a {
     text-decoration: none;
     cursor: pointer;
+    &.blk-color{
+        color: #000000;
+    }
 }
 
 a:hover {
     text-decoration: none !important;
+    &.blk-color{
+        color: #000000;
+    }
 }
 
 a:hover~#circularcursor {
@@ -234,6 +240,16 @@ a:hover~#circularcursor {
             margin-left: 16px;
 
             .nav-link {
+                 &.active{
+                    &::before {
+                        width: 100%;
+                        right: 0;
+                        background-color: $whitecolor;
+                    }
+                }
+            }
+
+            .nav-link {
                 color: $whitecolor;
                 position: relative;
 
@@ -320,9 +336,10 @@ a:hover~#circularcursor {
             }
         }
 
-        &.work-overlay{
+        &.work-overlay {
             background-color: #000000;
-            img{
+
+            img {
                 opacity: 0.5;
             }
         }
@@ -553,6 +570,8 @@ a:hover~#circularcursor {
         height: 100vh;
         display: grid;
         place-items: end;
+        cursor: url(../images/mouseArr.png), auto;
+
     }
 
 
@@ -572,6 +591,8 @@ a:hover~#circularcursor {
 
 #AboutND {
 
+    
+
     &.WorkBtwoC {
         .bg {
             height: auto;
@@ -582,7 +603,7 @@ a:hover~#circularcursor {
 
     .bg {
         height: 100vh;
-
+        cursor: url(../images/mouseArr.png), auto;
         &.work-web-second-sec-img {
             height: 80vh;
         }
