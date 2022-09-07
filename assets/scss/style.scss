@@ -6,6 +6,13 @@
     padding: 0;
 }
 
+
+$Poppins: 'Poppins', sans-serif;
+$grayColor: #7A7A7A;
+$whitecolor: #ffffff;
+$rubik: 'Rubik', sans-serif;
+
+
 body {
     cursor: none;
     box-sizing: border-box;
@@ -48,7 +55,6 @@ body {
         opacity: 1;
         transform: scale(1.5);
     }
-
 }
 
 .md-txt {
@@ -61,12 +67,14 @@ body {
     }
 }
 
+.sm-mid-txt{
+    font-size: 22px;
+    font-weight: 300;
+    font-family: $Poppins;
+
+}
 // common css
 
-$Poppins: 'Poppins', sans-serif;
-$grayColor: #7A7A7A;
-$whitecolor: #ffffff;
-$rubik: 'Rubik', sans-serif;
 
 
 #circularcursor {
@@ -84,11 +92,11 @@ $rubik: 'Rubik', sans-serif;
 .sm-txt {
     font-size: 16px;
     font-family: $Poppins;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .md-txt {
-    font-size: 35px;
+    font-size: 28px;
     font-family: $Poppins;
     font-weight: 400;
 }
@@ -117,7 +125,7 @@ a:hover~#circularcursor {
 }
 
 .heading {
-    font-size: 50px;
+    font-size: 40px;
     font-family: $rubik;
     font-weight: 400;
     text-transform: capitalize;
@@ -159,7 +167,9 @@ a:hover~#circularcursor {
     top: 0;
     z-index: 10;
     width: 100%;
-
+nav{
+    height: 70px;
+}
     .navbar-main {
         display: flex;
         justify-content: space-between;
@@ -237,9 +247,10 @@ a:hover~#circularcursor {
     .navbar-nav {
         .nav-item {
 
-            margin-left: 16px;
+            margin-left: 30px;
 
             .nav-link {
+                padding: 0;
                  &.active{
                     &::before {
                         width: 100%;
@@ -259,7 +270,7 @@ a:hover~#circularcursor {
                     width: 0%;
                     background-color: $grayColor;
                     position: absolute;
-                    bottom: 0;
+                    bottom: -6px;
                     left: 0;
                     transition: all .3s ease-in;
                 }
@@ -425,6 +436,7 @@ a:hover~#circularcursor {
     .main-txt {
         margin: 0 auto;
         padding: 120px 0px;
+        text-align: justify;
 
         &.fade-in {
             animation: fadeIn 3s;
@@ -505,7 +517,8 @@ a:hover~#circularcursor {
             a {
                 color: $grayColor;
                 position: relative;
-                font-size: 35px;
+                font-size: 30px;
+                font-family: $Poppins;
 
                 &:hover {
                     &::before {
@@ -606,6 +619,9 @@ a:hover~#circularcursor {
         cursor: url(../images/mouseArr.png), auto;
         &.work-web-second-sec-img {
             height: 80vh;
+        }
+        &.cursor-norm{
+            cursor: none;
         }
 
         .work-web-sec-uni {
@@ -980,7 +996,7 @@ a:hover~#circularcursor {
     }
 
     .sm-txt {
-        font-size: 25px;
+        font-size: 22px;
         text-align: justify;
         font-family: $Poppins;
         color: $grayColor;
@@ -1000,7 +1016,7 @@ a:hover~#circularcursor {
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 100vh;
+        height: 250vh;
         position: sticky;
         top: 0;
         right: 0;
@@ -1008,14 +1024,14 @@ a:hover~#circularcursor {
     }
 
     .top-content {
-        margin-top: -30%;
+        margin-top: -100%;
         padding: 0 4%;
 
         .img-box-main {
             width: 100%;
             height: auto;
             display: grid;
-            place-items: center;
+            place-items: flex-end;
             padding-bottom: 40%;
 
             // .img-box {
@@ -1040,6 +1056,7 @@ a:hover~#circularcursor {
 
             .md-txt {
                 text-transform: capitalize;
+                font-size: 25px;
             }
 
             .img-box {
@@ -1072,7 +1089,6 @@ a:hover~#circularcursor {
 // blog main start
 
 #BlogMainPage {
-    margin: 4% auto;
 
     .strip-gap {
         margin: 100px 0;
@@ -1177,7 +1193,6 @@ a:hover~#circularcursor {
 // blog inner start
 
 .blog-left-right-inner {
-
 
     .main {
 
@@ -1296,9 +1311,12 @@ a:hover~#circularcursor {
                 }
             }
         }
+
+        .owl-dots{
+            position: absolute;
+            left: 0;
+        }
     }
-
-
 }
 
 #BlogMainPage {
@@ -1349,6 +1367,9 @@ a:hover~#circularcursor {
 
             .content {
                 bottom: 0;
+                .md-txt{
+                    text-transform: capitalize;
+                }
             }
         }
 
@@ -1400,9 +1421,9 @@ a:hover~#circularcursor {
     .bg {
         padding: 80px 0;
 
-        .main {
-            margin-top: -18%;
-        }
+        // .main {
+        //     margin-top: -18%;
+        // }
     }
 
     .img-box {
