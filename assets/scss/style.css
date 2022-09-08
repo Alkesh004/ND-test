@@ -870,9 +870,9 @@ a:hover ~ #circularcursor {
 }
 
 #BrandingStrategyAbout .img-box {
-  margin-top: -150px;
+  margin-top: -150px !important;
   overflow: hidden;
-  height: 80vh;
+  height: 80vh !important;
 }
 
 #BrandingStrategyAbout .img-box img {
