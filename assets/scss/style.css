@@ -1766,6 +1766,16 @@ a:hover ~ #circularcursor {
   .date-and-quick-link .view-case-studies .hover-bg {
     left: 81px;
   }
+  #WorkLinksMain .work-grid-img-box {
+    height: 200px;
+    background-color: #000000;
+  }
+  #WorkLinksMain .work-grid-img-box img {
+    opacity: .6 !important;
+  }
+  #WorkLinksMain .work-grid-img-box .content {
+    bottom: 0 !important;
+  }
 }
 
 #AboutNDInBlog {
@@ -1831,15 +1841,23 @@ a:hover ~ #circularcursor {
 }
 
 #WorkLinksMain .work-grid-img-box {
-  height: 200px;
+  height: 450px;
   background-color: #000000;
 }
 
 #WorkLinksMain .work-grid-img-box img {
-  opacity: .6;
+  opacity: 1;
 }
 
 #WorkLinksMain .work-grid-img-box .content {
+  bottom: -100px;
+}
+
+#WorkLinksMain .work-grid-img-box:hover img {
+  opacity: .6;
+}
+
+#WorkLinksMain .work-grid-img-box:hover .content {
   bottom: 0;
 }
 

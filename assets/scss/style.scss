@@ -2080,6 +2080,19 @@ a:hover~#circularcursor {
             }
         }
     }
+
+    #WorkLinksMain {
+        .work-grid-img-box {
+            height: 200px;
+            background-color: #000000;
+            img {
+                opacity: .6 !important;
+            }
+            .content {
+                bottom: 0 !important;
+            }
+        }
+    }
 }
 
 #AboutNDInBlog {
@@ -2168,15 +2181,24 @@ a:hover~#circularcursor {
 
 #WorkLinksMain {
     .work-grid-img-box {
-        height: 200px;
+        height: 450px;
         background-color: #000000;
 
         img {
-            opacity: .6;
+            opacity: 1;
         }
 
         .content {
-            bottom: 0;
+            bottom: -100px;
+        }
+
+        &:hover{
+            img {
+                opacity: .6;
+            }
+            .content {
+                bottom: 0;
+            }
         }
     }
 }
