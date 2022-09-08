@@ -67,12 +67,13 @@ body {
     }
 }
 
-.sm-mid-txt{
+.sm-mid-txt {
     font-size: 22px;
     font-weight: 300;
     font-family: $Poppins;
 
 }
+
 // common css
 
 
@@ -108,14 +109,16 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
-    &.blk-color{
+
+    &.blk-color {
         color: #000000;
     }
 }
 
 a:hover {
     text-decoration: none !important;
-    &.blk-color{
+
+    &.blk-color {
         color: #000000;
     }
 }
@@ -167,9 +170,11 @@ a:hover~#circularcursor {
     top: 0;
     z-index: 10;
     width: 100%;
-nav{
-    height: 70px;
-}
+
+    nav {
+        height: 70px;
+    }
+
     .navbar-main {
         display: flex;
         justify-content: space-between;
@@ -251,7 +256,8 @@ nav{
 
             .nav-link {
                 padding: 0;
-                 &.active{
+
+                &.active {
                     &::before {
                         width: 100%;
                         right: 0;
@@ -604,7 +610,7 @@ nav{
 
 #AboutND {
 
-    
+
 
     &.WorkBtwoC {
         .bg {
@@ -617,10 +623,12 @@ nav{
     .bg {
         height: 100vh;
         cursor: url(../images/mouseArr.png), auto;
+
         &.work-web-second-sec-img {
             height: 80vh;
         }
-        &.cursor-norm{
+
+        &.cursor-norm {
             cursor: none;
         }
 
@@ -1312,7 +1320,7 @@ nav{
             }
         }
 
-        .owl-dots{
+        .owl-dots {
             position: absolute;
             left: 0;
         }
@@ -1367,7 +1375,8 @@ nav{
 
             .content {
                 bottom: 0;
-                .md-txt{
+
+                .md-txt {
                     text-transform: capitalize;
                 }
             }
@@ -1851,10 +1860,44 @@ nav{
     }
 
     .heading {
-        font-size: 40px;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .hover-bg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .view-case-studies {
+        &:hover {
+            .hover-bg {
+                left: 104px;
+                top: -5px;
+            }
+
+        }
+
     }
 
     #NavBar {
+        .navbar{
+            padding: 0;
+        }
+        .nvbar-main{
+            padding-left: 26px;
+        }
+        .navbar-toggler{
+            padding-right: 26px;
+        }
+        .navbar-nav {
+            margin-top: 18px;
+            background-color: rgba(0, 0, 0, 0.69);
+            .nav-item{
+                margin: 10px 30px;
+            }
+        }
+
         .nav-bg {
             ul {
                 margin-top: 34%;
@@ -1876,7 +1919,8 @@ nav{
             }
 
             .main-text {
-                top: 50%;
+                top: 36%;
+                width: 94%;
 
                 &.vid-back {
                     top: 50%;
@@ -1910,6 +1954,9 @@ nav{
         .bg {
 
             .about-nd-main {
+                .sm-content {
+                    padding-right: 20px;
+                }
 
                 .content-brif {
                     position: relative;
@@ -1940,8 +1987,8 @@ nav{
         .serv-carousel {
             .serve-box {
                 margin-right: auto;
-                height: 280px;
-                margin-top: 10%;
+                height: 216px;
+                margin-top: 4%;
             }
         }
 
@@ -2000,130 +2047,155 @@ nav{
 
     #BlogMainPage {
         .blog-row-main-right {
-            margin-top: 10%;
+            margin-top: 30%;
         }
 
         .blog-row-main-left {
             min-height: 230px;
 
-        }
-
-        .date-and-quick-link {
-            .view-case-studies {
-                .hover-bg {
-                    left: 81px;
-                }
+            .sm-txt {
+                -webkit-line-clamp: 2;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
             }
-        }
-    }
-
-    #AboutNDInBlog {
-        height: auto !important;
-    }
-
-    #BrandingStrategyAbout {
-        .img-box {
-            margin-top: 0;
-        }
-    }
-
-    #CaseStudy {
-        .main-text {
-            bottom: 50px;
-
-        }
-
-        .sm-txt {
-            &.vcas {
-                margin-left: 0 !important;
-                margin-right: auto;
-            }
-        }
-
-        .img-box {
-            height: 50vh;
-
-            img {
-                opacity: .6;
-            }
-        }
-    }
-
-    #BlogMainPage {
-        .strip-gap {
-            margin-top: 30px;
-        }
-
-        .blog-row-main-left {
             .md-txt {
-                font-size: 25px;
+                -webkit-line-clamp: 2;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
             }
         }
     }
 
-    .blog-left-right-inner {
-        .main {
-            .publisher-img {
-                width: 22px;
-                height: 22px;
+    .date-and-quick-link {
+        bottom: -65px;
+
+        .view-case-studies {
+            .hover-bg {
+                left: 81px;
             }
+        }
+    }
+}
 
-            .publisher-details {
-                width: 100%;
-            }
+#AboutNDInBlog {
+    height: auto !important;
+}
 
+#BrandingStrategyAbout {
+    .img-box {
+        margin-top: 0;
+    }
+}
+
+#CaseStudy {
+    .main-text {
+        bottom: 50px;
+
+    }
+
+    .sm-txt {
+        &.vcas {
+            margin-left: 0 !important;
+            margin-right: auto;
         }
     }
 
-    #WorkMain {
-        .bg {
-            height: 150vh;
-        }
+    .img-box {
+        height: 50vh;
 
-        .top-content {
-            margin-top: -224%;
+        img {
+            opacity: .6;
         }
     }
+}
 
-    #WorkList {
-        .bg {
-            padding: 20px 0;
-        }
-
-        .img-box {
-            height: 200px;
-        }
+#BlogMainPage {
+    .strip-gap {
+        margin: 42px 0;
     }
 
-    #ContactForm {
-        .right-side {
-            padding: 20px;
+    .blog-row-main-left {
+        .md-txt {
+            font-size: 25px;
         }
     }
+}
 
-    #WorkLinksMain {
-        .work-grid-img-box {
-            height: 200px;
+.blog-left-right-inner {
+    .main {
+        .publisher-img {
+            width: 22px;
+            height: 22px;
         }
+
+        .publisher-details {
+            width: 100%;
+        }
+
+    }
+}
+
+#WorkMain {
+    .bg {
+        height: 150vh;
     }
 
-    .business-growth {
-        .left-txt {
-            padding: 10% 0 0 0;
-        }
+    .top-content {
+        margin-top: -224%;
+    }
+}
 
-        .strip-true-side {
-            padding: 20% 0;
-        }
+#WorkList {
+    .bg {
+        padding: 20px 0;
     }
 
-    #BrandingStrategyAbout {
-        .padding-zero-in-sm-screen {
-            padding: 0;
+    .img-box {
+        height: 200px;
+    }
+}
+
+#ContactForm {
+    .right-side {
+        padding: 20px;
+    }
+}
+
+#WorkLinksMain {
+    .work-grid-img-box {
+        height: 200px;
+        background-color: #000000;
+
+        img {
+            opacity: .6;
         }
 
-        .img-box {
-            height: 30vh;
+        .content {
+            bottom: 0;
         }
+    }
+}
+
+.business-growth {
+    .left-txt {
+        padding: 10% 0 0 0;
+    }
+
+    .strip-true-side {
+        padding: 20% 0;
+    }
+}
+
+#BrandingStrategyAbout {
+    .padding-zero-in-sm-screen {
+        padding: 0;
+    }
+
+    .img-box {
+        height: 30vh;
     }
 }

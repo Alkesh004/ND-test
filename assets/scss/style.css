@@ -1631,7 +1631,32 @@ a:hover ~ #circularcursor {
     margin-top: 50px;
   }
   .heading {
-    font-size: 40px;
+    font-size: 30px;
+    text-align: left;
+  }
+  .hover-bg {
+    width: 40px;
+    height: 40px;
+  }
+  .view-case-studies:hover .hover-bg {
+    left: 104px;
+    top: -5px;
+  }
+  #NavBar .navbar {
+    padding: 0;
+  }
+  #NavBar .nvbar-main {
+    padding-left: 26px;
+  }
+  #NavBar .navbar-toggler {
+    padding-right: 26px;
+  }
+  #NavBar .navbar-nav {
+    margin-top: 18px;
+    background-color: rgba(0, 0, 0, 0.69);
+  }
+  #NavBar .navbar-nav .nav-item {
+    margin: 10px 30px;
   }
   #NavBar .nav-bg ul {
     margin-top: 34%;
@@ -1647,7 +1672,8 @@ a:hover ~ #circularcursor {
     height: 80vh;
   }
   #HeroSection .video-main .main-text {
-    top: 50%;
+    top: 36%;
+    width: 94%;
   }
   #HeroSection .video-main .main-text.vid-back {
     top: 50%;
@@ -1660,6 +1686,9 @@ a:hover ~ #circularcursor {
   }
   #AboutND.WorkBtwoC .bg .about-nd-main {
     height: auto;
+  }
+  #AboutND .bg .about-nd-main .sm-content {
+    padding-right: 20px;
   }
   #AboutND .bg .about-nd-main .content-brif {
     position: relative;
@@ -1675,8 +1704,8 @@ a:hover ~ #circularcursor {
   }
   #ServicesSec .serv-carousel .serve-box {
     margin-right: auto;
-    height: 280px;
-    margin-top: 10%;
+    height: 216px;
+    margin-top: 4%;
   }
   #FooterSec {
     text-align: center;
@@ -1712,75 +1741,121 @@ a:hover ~ #circularcursor {
             justify-content: center;
   }
   #BlogMainPage .blog-row-main-right {
-    margin-top: 10%;
+    margin-top: 30%;
   }
   #BlogMainPage .blog-row-main-left {
     min-height: 230px;
   }
-  #BlogMainPage .date-and-quick-link .view-case-studies .hover-bg {
-    left: 81px;
-  }
-  #AboutNDInBlog {
-    height: auto !important;
-  }
-  #BrandingStrategyAbout .img-box {
-    margin-top: 0;
-  }
-  #CaseStudy .main-text {
-    bottom: 50px;
-  }
-  #CaseStudy .sm-txt.vcas {
-    margin-left: 0 !important;
-    margin-right: auto;
-  }
-  #CaseStudy .img-box {
-    height: 50vh;
-  }
-  #CaseStudy .img-box img {
-    opacity: .6;
-  }
-  #BlogMainPage .strip-gap {
-    margin-top: 30px;
+  #BlogMainPage .blog-row-main-left .sm-txt {
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   #BlogMainPage .blog-row-main-left .md-txt {
-    font-size: 25px;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
-  .blog-left-right-inner .main .publisher-img {
-    width: 22px;
-    height: 22px;
+  .date-and-quick-link {
+    bottom: -65px;
   }
-  .blog-left-right-inner .main .publisher-details {
-    width: 100%;
+  .date-and-quick-link .view-case-studies .hover-bg {
+    left: 81px;
   }
-  #WorkMain .bg {
-    height: 150vh;
-  }
-  #WorkMain .top-content {
-    margin-top: -224%;
-  }
-  #WorkList .bg {
-    padding: 20px 0;
-  }
-  #WorkList .img-box {
-    height: 200px;
-  }
-  #ContactForm .right-side {
-    padding: 20px;
-  }
-  #WorkLinksMain .work-grid-img-box {
-    height: 200px;
-  }
-  .business-growth .left-txt {
-    padding: 10% 0 0 0;
-  }
-  .business-growth .strip-true-side {
-    padding: 20% 0;
-  }
-  #BrandingStrategyAbout .padding-zero-in-sm-screen {
-    padding: 0;
-  }
-  #BrandingStrategyAbout .img-box {
-    height: 30vh;
-  }
+}
+
+#AboutNDInBlog {
+  height: auto !important;
+}
+
+#BrandingStrategyAbout .img-box {
+  margin-top: 0;
+}
+
+#CaseStudy .main-text {
+  bottom: 50px;
+}
+
+#CaseStudy .sm-txt.vcas {
+  margin-left: 0 !important;
+  margin-right: auto;
+}
+
+#CaseStudy .img-box {
+  height: 50vh;
+}
+
+#CaseStudy .img-box img {
+  opacity: .6;
+}
+
+#BlogMainPage .strip-gap {
+  margin: 42px 0;
+}
+
+#BlogMainPage .blog-row-main-left .md-txt {
+  font-size: 25px;
+}
+
+.blog-left-right-inner .main .publisher-img {
+  width: 22px;
+  height: 22px;
+}
+
+.blog-left-right-inner .main .publisher-details {
+  width: 100%;
+}
+
+#WorkMain .bg {
+  height: 150vh;
+}
+
+#WorkMain .top-content {
+  margin-top: -224%;
+}
+
+#WorkList .bg {
+  padding: 20px 0;
+}
+
+#WorkList .img-box {
+  height: 200px;
+}
+
+#ContactForm .right-side {
+  padding: 20px;
+}
+
+#WorkLinksMain .work-grid-img-box {
+  height: 200px;
+  background-color: #000000;
+}
+
+#WorkLinksMain .work-grid-img-box img {
+  opacity: .6;
+}
+
+#WorkLinksMain .work-grid-img-box .content {
+  bottom: 0;
+}
+
+.business-growth .left-txt {
+  padding: 10% 0 0 0;
+}
+
+.business-growth .strip-true-side {
+  padding: 20% 0;
+}
+
+#BrandingStrategyAbout .padding-zero-in-sm-screen {
+  padding: 0;
+}
+
+#BrandingStrategyAbout .img-box {
+  height: 30vh;
 }
 /*# sourceMappingURL=style.css.map */
