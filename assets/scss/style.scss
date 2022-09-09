@@ -780,10 +780,12 @@ a:hover~#circularcursor {
 
 #OurClients {
     .img-box {
-        width: 150px;
+        width: 204px;
         height: 120px;
         overflow: hidden;
-        margin-left: auto;
+        padding-right: 74px;
+        margin-right: auto;
+        border-right: 1px solid #D9D9D9;
 
         &:hover {
             img {
@@ -1882,19 +1884,23 @@ a:hover~#circularcursor {
     }
 
     #NavBar {
-        .navbar{
+        .navbar {
             padding: 0;
         }
-        .nvbar-main{
+
+        .nvbar-main {
             padding-left: 26px;
         }
-        .navbar-toggler{
+
+        .navbar-toggler {
             padding-right: 26px;
         }
+
         .navbar-nav {
             margin-top: 18px;
             background-color: rgba(0, 0, 0, 0.69);
-            .nav-item{
+
+            .nav-item {
                 margin: 10px 30px;
             }
         }
@@ -2061,6 +2067,7 @@ a:hover~#circularcursor {
                 -webkit-box-orient: vertical;
                 overflow: hidden;
             }
+
             .md-txt {
                 -webkit-line-clamp: 2;
                 text-overflow: ellipsis;
@@ -2085,9 +2092,11 @@ a:hover~#circularcursor {
         .work-grid-img-box {
             height: 200px;
             background-color: #000000;
+
             img {
                 opacity: .6 !important;
             }
+
             .content {
                 bottom: 0 !important;
             }
@@ -2192,10 +2201,11 @@ a:hover~#circularcursor {
             bottom: -100px;
         }
 
-        &:hover{
+        &:hover {
             img {
                 opacity: .6;
             }
+
             .content {
                 bottom: 0;
             }

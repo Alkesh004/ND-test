@@ -677,10 +677,12 @@ a:hover ~ #circularcursor {
 }
 
 #OurClients .img-box {
-  width: 150px;
+  width: 204px;
   height: 120px;
   overflow: hidden;
-  margin-left: auto;
+  padding-right: 74px;
+  margin-right: auto;
+  border-right: 1px solid #D9D9D9;
 }
 
 #OurClients .img-box:hover img {

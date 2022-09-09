@@ -85,7 +85,7 @@
     <!-- navbar end -->
 
     <!-- hero section start -->
-    <section id="HeroSection" >
+    <section id="HeroSection">
         <div class="video-main">
             <video autoplay webkit-playsinline x5-playsinline playsinline height="100%" width="100%" preload="auto"
                 poster="assets/images/vid-poster.png" loop="true" muted>
@@ -141,23 +141,46 @@
 
 
     <!-- About-Nd-start -->
-    <section id="AboutND">
-        <a href="about.html" class="blk-color">
-            <div class="bg" style="background-image: url(assets/images/nav-bg.jpg);
-            background-size: cover; background-position:center;">
-                <div class="about-nd-main container">
-                    <h1 class="text-white sm-txt">About - ND</h1>
-                    <div class="sm-content">
-                        <p class="md-txt">With the most compelling creative, tech
-                            and consulting services, we transform
-                            brands
-                            by delivering
-                            experiences that change how people engage with the world
-                            around them.</p>
+    <section id="AboutND" >
+        
+            <div class="bg posRel" style="background-image: url(assets/images/nav-bg.jpg);
+            background-size: cover; background-position:center; display: grid; place-items: center; cursor: auto; ">
+
+                <div class="container">
+                    <div style="position:absolute; top: 40px;">
+                        <p class="sm-txt text-white font-italic">About - ND</p>
                     </div>
+                    <div class="row">
+
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                            <div class="left-h">
+                                <p class="heading text-left text-white">
+                                    Brands<br>
+                                    that move
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <p class="md-txt">
+                                With the most compelling creative, tech and consulting services, we transform brands by
+                                delivering experiences that change how people engage with the world around them.
+                                <a>hdij</a>
+                            </p>
+                            <div class="view-case-studies text-white mt-4">
+                                <a href="contact.html" class="sm-txt vcas d-flex align-items-center posRel text-white"> Talk To
+                                    An Expert <i class="bi bi-arrow-right ml-2"></i>
+                                    <div class="hover-bg"></div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
+
             </div>
-        </a>
+ 
     </section>
 
 
@@ -252,7 +275,7 @@
 
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                     <a href="work-web.html">
                         <div class="work-grid-img-box">
                             <img src="assets/images/work-img-two.jpg">
@@ -264,7 +287,7 @@
                     </a>
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <!-- <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <a href="work-web.html">
                         <div class="work-grid-img-box">
                             <img src="assets/images/work-img-one.jpg">
@@ -274,7 +297,7 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -776,8 +799,12 @@
             autoplay: true,
             autoplayTimeout: 1500,
             autoplayHoverPause: true,
+            stagePadding: 47,
             // navClass: ['bi bi-chevron-left', 'bi bi-chevron-right'],
             dots: false,
+            slideTransition: 'linear',
+            autoplayTimeout: 4000,
+            autoplaySpeed: 4000,
             responsive: {
                 0: {
                     items: 2
