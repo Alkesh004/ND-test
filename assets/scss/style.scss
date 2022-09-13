@@ -1817,20 +1817,14 @@ a:hover~#circularcursor {
 
     #AboutND {
         .bg {
-     
-
             .about-nd-main {
                 height: 70vh;
                 padding: 30px 20px;
-
                 .content-brif {
                     position: none;
                 }
-
             }
-
         }
-
     }
 
     #AboutNDInBlog {
@@ -1849,6 +1843,8 @@ a:hover~#circularcursor {
             }
         }
     }
+
+
 
     
   
@@ -2042,7 +2038,8 @@ a:hover~#circularcursor {
         .img-box {
             width: 100px;
             height: 50px;
-            padding-right: 30px;
+            padding-right: 22px;
+            padding-left: 2px;
         }
     }
 
@@ -2113,6 +2110,7 @@ a:hover~#circularcursor {
             }
         }
     }
+  
 }
 
 #AboutNDInBlog {

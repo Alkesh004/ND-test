@@ -1733,7 +1733,8 @@ a:hover ~ #circularcursor {
   #OurClients .img-box {
     width: 100px;
     height: 50px;
-    padding-right: 30px;
+    padding-right: 22px;
+    padding-left: 2px;
   }
   #ServicesSec {
     margin-top: 40px;
