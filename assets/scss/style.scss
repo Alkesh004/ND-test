@@ -74,6 +74,9 @@ body {
 
 }
 
+.text-black{
+    color: #000000;
+}
 // common css
 
 
@@ -305,7 +308,7 @@ a:hover~#circularcursor {
 // navbar end
 
 .headerSection.scrolled {
-    background-color: rgba(0, 0, 0, 0.69);
+    background-color: #000000;
     animation: fadeIn 0.3s ease-in both;
     animation-delay: 0.3s;
 }
@@ -609,9 +612,6 @@ a:hover~#circularcursor {
 // About-ND start
 
 #AboutND {
-
-
-
     &.WorkBtwoC {
         .bg {
             height: auto;
@@ -1745,8 +1745,6 @@ a:hover~#circularcursor {
 
     #AboutND {
         .bg {
-            height: auto;
-
             .about-nd-main {
                 height: 70vh;
                 padding: 30px 20px;
@@ -1798,6 +1796,13 @@ a:hover~#circularcursor {
         }
     }
 
+    #OurClients {
+        .img-box {
+            padding-right: 42px;
+            padding-left: 42px;
+        }
+    }
+
 }
 
 
@@ -1812,7 +1817,7 @@ a:hover~#circularcursor {
 
     #AboutND {
         .bg {
-            height: auto;
+     
 
             .about-nd-main {
                 height: 70vh;
@@ -1832,6 +1837,7 @@ a:hover~#circularcursor {
         height: auto !important;
     }
 
+
     .business-growth {
         .strip-true-side {
             .strip {
@@ -1843,6 +1849,9 @@ a:hover~#circularcursor {
             }
         }
     }
+
+    
+  
 
 }
 
@@ -2032,6 +2041,8 @@ a:hover~#circularcursor {
     #OurClients {
         .img-box {
             width: 100px;
+            height: 50px;
+            padding-right: 30px;
         }
     }
 

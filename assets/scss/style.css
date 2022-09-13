@@ -65,6 +65,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.text-black {
+  color: #000000;
+}
+
 #circularcursor {
   background-color: #23e7f598;
   background-blend-mode: multiply;
@@ -267,7 +271,7 @@ a:hover ~ #circularcursor {
 }
 
 .headerSection.scrolled {
-  background-color: rgba(0, 0, 0, 0.69);
+  background-color: #000000;
   -webkit-animation: fadeIn 0.3s ease-in both;
           animation: fadeIn 0.3s ease-in both;
   -webkit-animation-delay: 0.3s;
@@ -1564,9 +1568,6 @@ a:hover ~ #circularcursor {
 }
 
 @media (max-width: 998px) {
-  #AboutND .bg {
-    height: auto;
-  }
   #AboutND .bg .about-nd-main {
     height: 70vh;
     padding: 30px 20px;
@@ -1595,6 +1596,10 @@ a:hover ~ #circularcursor {
   #ServicesSpecfication .bg {
     height: auto;
   }
+  #OurClients .img-box {
+    padding-right: 42px;
+    padding-left: 42px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1603,9 +1608,6 @@ a:hover ~ #circularcursor {
   }
   .md-txt {
     font-size: 22px;
-  }
-  #AboutND .bg {
-    height: auto;
   }
   #AboutND .bg .about-nd-main {
     height: 70vh;
@@ -1730,6 +1732,8 @@ a:hover ~ #circularcursor {
   }
   #OurClients .img-box {
     width: 100px;
+    height: 50px;
+    padding-right: 30px;
   }
   #ServicesSec {
     margin-top: 40px;
