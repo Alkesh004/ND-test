@@ -352,17 +352,7 @@ a:hover ~ #circularcursor {
   top: 50%;
   left: auto;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  display: block;
   padding: 16px 0;
 }
 
@@ -1783,6 +1773,21 @@ a:hover ~ #circularcursor {
   #WorkLinksMain .work-grid-img-box .content {
     bottom: 0 !important;
   }
+  #WorkList .bg {
+    padding: 20px 0;
+  }
+  #WorkList .img-box {
+    height: 200px;
+  }
+  #WorkMain .bg {
+    height: 150vh;
+  }
+  #WorkMain .top-content {
+    margin-top: -224%;
+  }
+  #CaseStudy .img-box {
+    height: 50vh;
+  }
 }
 
 #AboutNDInBlog {
@@ -1800,10 +1805,6 @@ a:hover ~ #circularcursor {
 #CaseStudy .sm-txt.vcas {
   margin-left: 0 !important;
   margin-right: auto;
-}
-
-#CaseStudy .img-box {
-  height: 50vh;
 }
 
 #CaseStudy .img-box img {
@@ -1825,22 +1826,6 @@ a:hover ~ #circularcursor {
 
 .blog-left-right-inner .main .publisher-details {
   width: 100%;
-}
-
-#WorkMain .bg {
-  height: 150vh;
-}
-
-#WorkMain .top-content {
-  margin-top: -224%;
-}
-
-#WorkList .bg {
-  padding: 20px 0;
-}
-
-#WorkList .img-box {
-  height: 200px;
 }
 
 #ContactForm .right-side {

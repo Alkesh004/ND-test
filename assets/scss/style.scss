@@ -74,9 +74,10 @@ body {
 
 }
 
-.text-black{
+.text-black {
     color: #000000;
 }
+
 // common css
 
 
@@ -379,15 +380,8 @@ a:hover~#circularcursor {
             top: 50%;
             left: auto;
             width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: flex-end;
+            display: block;
             padding: 16px 0;
-
-            // &.vid-back {
-            //     top: 70%;
-            // }
 
             .sm-txt {
                 width: 74%;
@@ -1768,7 +1762,7 @@ a:hover~#circularcursor {
     }
 
     #CaseStudy {
-
+   
         .main-text {
             bottom: 50px;
 
@@ -1820,6 +1814,7 @@ a:hover~#circularcursor {
             .about-nd-main {
                 height: 70vh;
                 padding: 30px 20px;
+
                 .content-brif {
                     position: none;
                 }
@@ -1843,11 +1838,6 @@ a:hover~#circularcursor {
             }
         }
     }
-
-
-
-    
-  
 
 }
 
@@ -2042,7 +2032,7 @@ a:hover~#circularcursor {
             padding-left: 2px;
         }
     }
-    
+
     #ServicesSec {
 
         margin-top: 40px;
@@ -2108,7 +2098,34 @@ a:hover~#circularcursor {
             }
         }
     }
-  
+
+    #WorkList {
+        .bg {
+            padding: 20px 0;
+        }
+
+        .img-box {
+            height: 200px;
+        }
+    }
+
+
+    #WorkMain {
+        .bg {
+            height: 150vh;
+        }
+
+        .top-content {
+            margin-top: -224%;
+        }
+    }
+
+    #CaseStudy{
+        .img-box{
+            height: 50vh;
+        }
+    } 
+
 }
 
 #AboutNDInBlog {
@@ -2135,7 +2152,6 @@ a:hover~#circularcursor {
     }
 
     .img-box {
-        height: 50vh;
 
         img {
             opacity: .6;
@@ -2166,26 +2182,6 @@ a:hover~#circularcursor {
             width: 100%;
         }
 
-    }
-}
-
-#WorkMain {
-    .bg {
-        height: 150vh;
-    }
-
-    .top-content {
-        margin-top: -224%;
-    }
-}
-
-#WorkList {
-    .bg {
-        padding: 20px 0;
-    }
-
-    .img-box {
-        height: 200px;
     }
 }
 
