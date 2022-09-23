@@ -471,11 +471,15 @@ a:hover ~ #circularcursor {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   line-height: 52.5px;
+  -webkit-text-decoration-color: #ffffff !important;
+          text-decoration-color: #ffffff !important;
 }
 
 #AboutBrief .main-txt .sm-q-link li {
   margin-right: 10px;
   text-transform: capitalize;
+  -webkit-text-decoration-color: #ffffff !important;
+          text-decoration-color: #ffffff !important;
 }
 
 #AboutBrief .main-txt .sm-q-link a {
@@ -483,6 +487,13 @@ a:hover ~ #circularcursor {
   position: relative;
   font-size: 30px;
   font-family: "Poppins", sans-serif;
+  -webkit-text-decoration-color: #ffffff !important;
+          text-decoration-color: #ffffff !important;
+}
+
+#AboutBrief .main-txt .sm-q-link a:hover {
+  -webkit-text-decoration-color: #ffffff !important;
+          text-decoration-color: #ffffff !important;
 }
 
 #AboutBrief .main-txt .sm-q-link a:hover::before {
@@ -500,6 +511,8 @@ a:hover ~ #circularcursor {
   left: 0;
   -webkit-transition: all .3s ease-in;
   transition: all .3s ease-in;
+  -webkit-text-decoration-color: #ffffff !important;
+          text-decoration-color: #ffffff !important;
 }
 
 #AboutBrief .left-sm-h {
@@ -1681,6 +1694,9 @@ a:hover ~ #circularcursor {
   #AboutND.WorkBtwoC .bg .about-nd-main {
     height: auto;
   }
+  #AboutND .bg {
+    height: auto;
+  }
   #AboutND .bg .about-nd-main .sm-content {
     padding-right: 20px;
   }
@@ -1838,7 +1854,7 @@ a:hover ~ #circularcursor {
 }
 
 #WorkLinksMain .work-grid-img-box img {
-  opacity: 1;
+  opacity: .6;
 }
 
 #WorkLinksMain .work-grid-img-box .content {
@@ -1846,7 +1862,7 @@ a:hover ~ #circularcursor {
 }
 
 #WorkLinksMain .work-grid-img-box:hover img {
-  opacity: .6;
+  opacity: .3;
 }
 
 #WorkLinksMain .work-grid-img-box:hover .content {

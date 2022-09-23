@@ -511,10 +511,16 @@ a:hover~#circularcursor {
             display: flex;
             flex-wrap: wrap;
             line-height: 52.5px;
+            text-decoration-color:#ffffff !important;
+            
+
 
             li {
                 margin-right: 10px;
                 text-transform: capitalize;
+                text-decoration-color:#ffffff !important;
+                
+
             }
 
             a {
@@ -522,8 +528,11 @@ a:hover~#circularcursor {
                 position: relative;
                 font-size: 30px;
                 font-family: $Poppins;
-
+                text-decoration-color:#ffffff !important;
                 &:hover {
+                    text-decoration-color:#ffffff !important;
+                
+
                     &::before {
                         width: 100%;
                         right: 0;
@@ -539,7 +548,12 @@ a:hover~#circularcursor {
                     bottom: 0;
                     left: 0;
                     transition: all .3s ease-in;
+                    text-decoration-color:#ffffff !important;
+                
+
                 }
+
+               
             }
         }
     }
@@ -1478,8 +1492,6 @@ a:hover~#circularcursor {
 
 // services specifications end
 
-
-
 // img-serv-sec start
 
 #ServImgSecAndContent {
@@ -1946,6 +1958,7 @@ a:hover~#circularcursor {
     #AboutND {
         &.WorkBtwoC {
             .bg {
+                
                 .about-nd-main {
                     height: auto;
                 }
@@ -1954,7 +1967,7 @@ a:hover~#circularcursor {
         }
 
         .bg {
-
+            height: auto;
             .about-nd-main {
                 .sm-content {
                     padding-right: 20px;
@@ -2197,7 +2210,7 @@ a:hover~#circularcursor {
         background-color: #000000;
 
         img {
-            opacity: 1;
+            opacity: .6;
         }
 
         .content {
@@ -2206,7 +2219,7 @@ a:hover~#circularcursor {
 
         &:hover {
             img {
-                opacity: .6;
+                opacity: .3;
             }
 
             .content {
