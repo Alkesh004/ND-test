@@ -123,7 +123,10 @@
             <div class="main-txt fade-in" style="padding: 110px 0;">
                 <h1 class="heading">We Are New Dimentions</h1>
                 <ul class="sm-q-link">
-                    <li><p style="font-size: 30px; color: #7A7A7A; font-family:Poppins, sans-serif" class="punch-line" href="services-inner.html">An Independent Brand-First Creative Agency.</p></li>
+                    <li>
+                        <p style="font-size: 30px; color: #7A7A7A; font-family:Poppins, sans-serif" class="punch-line"
+                            href="services-inner.html">An Independent Brand-First Creative Agency.</p>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -135,7 +138,8 @@
     <!-- About-Nd-start -->
     <section id="AboutND">
 
-        <div class="bg posRel" style="background-image: url(assets/images/nav-bg.jpg);
+        <div class="bg posRel"
+            style="background-image: url(assets/images/nav-bg.jpg);
             background-size: cover; background-position:center; display: grid; place-items: center; cursor: auto; height: 70vh;">
 
             <div class="container">
@@ -541,8 +545,63 @@
 
     <!-- services section end -->
 
-    <hr>
+    <!-- Testimonial section Start -->
 
+    <section id="BlogMainPage" class="mt-0 testimonials-main"
+        style="background-image: url(assets/images/nav-bg.jpg); height: auto; width: 100%; padding: 45px 0; height: 70vh; display: grid; place-items: center;">
+        <div class="container"  style="background-image: url(assets/images/Quote.png); background-size: contain; background-repeat: no-repeat; background-position:center; margin-top: -40px;">
+            <div class="about-nd-main container">
+                <h1 class="text-white text-center heading" style="margin-bottom: 50px;">What Clients Are Say ?</h1>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide TestimonialCaro" data-ride="carousel" >
+                <ol class="carousel-indicators">
+                    <li style="background-image: url(assets/images/test-1.jpg); background-size: cover; background-position: center;"
+                        data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                    </li>
+                    <li style="background-image: url(assets/images/test-2.jpg); background-size: cover; background-position: center;"
+                        data-target="#carouselExampleIndicators" data-slide-to="1">
+                        
+                    </li>
+                    <li style="background-image: url(assets/images/test-3.png); background-size: cover; background-position: center;"
+                        data-target="#carouselExampleIndicators" data-slide-to="2">
+                        
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="sm-txt content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+                            <p class="sm-txt">- John Doe</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="sm-txt content">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                        <p class="sm-txt">- Mr. Roy</p>
+
+                    </div>
+                    <div class="carousel-item">
+                        <p class="sm-txt content">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                        <p class="sm-txt">- Max Grater</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+    </section>
+
+    <!-- Testimonial section end -->
 
     <section id="OurClients" class="sec-gap">
         <div class="container">
@@ -807,33 +866,7 @@
     </script>
 
 
-    <script>
-        $('.country-time-carousel-bottom').owlCarousel({
-            loop: true,
-            stagePadding: 120,
-            margin: 2,
-            rtl: true,
-            nav: false,
-            // navClass: ['bi bi-chevron-left', 'bi bi-chevron-right'],
-            dots: false,
-            autoplay: true,
-            autoplayTimeout: 4500,
-            autoplayHoverPause: true,
-            autoplaySpeed: 8000,
-            fluidSpeed: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 4
-                }
-            }
-        })
-    </script>
+
     <script>
         $('.BlogInCaroOne').owlCarousel({
             loop: true,

@@ -1570,6 +1570,30 @@ a:hover ~ #circularcursor {
   padding: 96px 0 0 0;
 }
 
+.testimonials-main {
+  position: relative;
+}
+
+.testimonials-main .sm-txt {
+  text-align: center;
+  color: #ffffff !important;
+}
+
+.testimonials-main .sm-txt.content {
+  padding: 0 30px;
+}
+
+.TestimonialCaro .carousel-indicators {
+  bottom: -100px;
+}
+
+.TestimonialCaro .carousel-indicators li {
+  width: 50px;
+  height: 50px;
+  border-radius: calc(50%);
+  margin: 0 8px;
+}
+
 @media (max-width: 998px) {
   #AboutND .bg .about-nd-main {
     height: 70vh;

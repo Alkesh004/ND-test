@@ -511,15 +511,15 @@ a:hover~#circularcursor {
             display: flex;
             flex-wrap: wrap;
             line-height: 52.5px;
-            text-decoration-color:#ffffff !important;
-            
+            text-decoration-color: #ffffff !important;
+
 
 
             li {
                 margin-right: 10px;
                 text-transform: capitalize;
-                text-decoration-color:#ffffff !important;
-                
+                text-decoration-color: #ffffff !important;
+
 
             }
 
@@ -528,10 +528,11 @@ a:hover~#circularcursor {
                 position: relative;
                 font-size: 30px;
                 font-family: $Poppins;
-                text-decoration-color:#ffffff !important;
+                text-decoration-color: #ffffff !important;
+
                 &:hover {
-                    text-decoration-color:#ffffff !important;
-                
+                    text-decoration-color: #ffffff !important;
+
 
                     &::before {
                         width: 100%;
@@ -548,12 +549,12 @@ a:hover~#circularcursor {
                     bottom: 0;
                     left: 0;
                     transition: all .3s ease-in;
-                    text-decoration-color:#ffffff !important;
-                
+                    text-decoration-color: #ffffff !important;
+
 
                 }
 
-               
+
             }
         }
     }
@@ -1747,6 +1748,33 @@ a:hover~#circularcursor {
     }
 }
 
+.testimonials-main {
+    position: relative;
+
+    .sm-txt {
+        text-align: center;
+        color: $whitecolor !important;
+        &.content{
+            padding: 0 30px;
+        }
+
+    }
+}
+
+.TestimonialCaro {
+    .carousel-indicators {
+        li {
+            width: 50px;
+            height: 50px;
+            border-radius: calc(50%);
+            margin: 0 8px;
+        }
+
+        bottom: -100px;
+    }
+
+}
+
 @media(max-width:998px) {
 
     #AboutND {
@@ -1774,7 +1802,7 @@ a:hover~#circularcursor {
     }
 
     #CaseStudy {
-   
+
         .main-text {
             bottom: 50px;
 
@@ -1958,7 +1986,7 @@ a:hover~#circularcursor {
     #AboutND {
         &.WorkBtwoC {
             .bg {
-                
+
                 .about-nd-main {
                     height: auto;
                 }
@@ -1968,6 +1996,7 @@ a:hover~#circularcursor {
 
         .bg {
             height: auto;
+
             .about-nd-main {
                 .sm-content {
                     padding-right: 20px;
@@ -2133,11 +2162,11 @@ a:hover~#circularcursor {
         }
     }
 
-    #CaseStudy{
-        .img-box{
+    #CaseStudy {
+        .img-box {
             height: 50vh;
         }
-    } 
+    }
 
 }
 
